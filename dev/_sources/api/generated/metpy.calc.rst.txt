@@ -19,10 +19,8 @@ calc
       dry_static_energy
       geopotential_to_height
       height_to_geopotential
-      height_to_pressure_std
       mean_pressure_weighted
       potential_temperature
-      pressure_to_height_std
       sigma_to_pressure
       static_stability
       temperature_from_potential_temperature
@@ -53,6 +51,7 @@ calc
       saturation_equivalent_potential_temperature
       saturation_mixing_ratio
       saturation_vapor_pressure
+      specific_humidity_from_dewpoint
       specific_humidity_from_mixing_ratio
       thickness_hydrostatic_from_relative_humidity
       vapor_pressure
@@ -159,6 +158,17 @@ calc
       heat_index
       windchill
 
+   Standard Atmosphere
+   -------------------
+
+   .. autosummary::
+      :toctree: ./
+
+      altimeter_to_sea_level_pressure
+      altimeter_to_station_pressure
+      height_to_pressure_std
+      pressure_to_height_std
+
    Other
    -----
 
@@ -192,6 +202,5 @@ calc
       get_wind_speed
       interp
       interpolate_nans
-      lat_lon_grid_spacing
       log_interp
 
